@@ -1,0 +1,19 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+
+{% block title %}
+Mogo Real Estate
+{% endblock %}
+
+{% block branding %}
+    <h1 id="site-name">
+        <img class="brand_img" src="{% static 'img/logo.png' %}" 
+        alt="Mogo Real Estate Logo" height="50" 
+        width="80"/>
+       Mogo Admin</h1>
+
+{% endblock %}
+
+{% block extrastyle %}
+<linK rel="stylesheet" href="{% static 'css/admin.css' %}"
+{% endblock %}
