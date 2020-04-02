@@ -36,7 +36,7 @@ def contact(request):
           'femi4dami@gmail.com',
           [realtor_email, 'ayopaulofficial@gmail.com'],
           fail_silently=False
-        )
+        )``
 
         messages.success(request, 'Your request has been submitted, a realtor will get back to you soon')
         return redirect('/listings/'+listing_id)
